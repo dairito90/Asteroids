@@ -1,0 +1,24 @@
+{
+  "name": "asteroids",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle":"watchify js/main.js -o js/prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dairito90/Asteroids.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dairito90/Asteroids/issues"
+  },
+  "homepage": "https://github.com/dairito90/Asteroids#readme",
+  "dependencies": {
+    "browserify": "^14.1.0",
+    "watchify": "^3.9.0"
+  }
+}
